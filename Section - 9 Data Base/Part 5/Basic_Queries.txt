@@ -1,0 +1,26 @@
+Database:
+	Collection of Tables
+
+Employee
+	ID	Name	Salary
+	1	Bill	8888
+	2	John	7876
+	3	Tom	8734
+	4	Ben	4332
+	5	John	9383
+
+ID is a Primary Key, ie, it is unique for all records
+
+INSERT:
+	INSERT INTO `Employee` (`ID`, `Name`, `Salary`) VALUES (6, 'Harry', 4654);
+REMOVE:
+	DELETE FROM `Employee` WHERE `ID` = 6;
+CHANGE:
+	UPDATE `Employee` SET `Salary` = 9999 WHERE `ID` = 3;
+SHOW:
+	SELECT * FROM `Employee` WHERE `ID` = 1;
+        SELECT * FROM `Employee`;
+
+PhpMyAdmin: http://localhost/phpmyadmin/
+
+
